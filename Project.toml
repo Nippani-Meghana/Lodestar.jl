@@ -1,0 +1,7 @@
+name = "Lodestar"
+uuid = "014caf5a-4d00-4498-a464-ea54d94aa97c"
+authors = ["Nippani Meghana <meghananippani@email.com>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
