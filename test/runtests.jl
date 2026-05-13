@@ -2,6 +2,7 @@ using Lodestar
 using Test
 
 @testset "SpikeTrain ISI Tests" begin
+    
     #Triggering CLI
     @testset "Continuous Data (No Trials)" begin
         # A neuron firing every 10ms with some noise
