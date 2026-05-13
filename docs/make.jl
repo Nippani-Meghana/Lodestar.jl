@@ -4,7 +4,7 @@ using Documenter
 DocMeta.setdocmeta!(Lodestar, :DocTestSetup, :(using Lodestar); recursive=true)
 
 makedocs(;
-    modules=[Lodestar],
+    modules=[Lodestar, Lodestar.SpikeTrain],
     authors="Nippani Meghana <meghananippani@email.com>",
     sitename="Lodestar.jl",
     format=Documenter.HTML(;

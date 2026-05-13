@@ -3,7 +3,7 @@ module SpikeTrain
 export calculate_isi
 
 """
-calculate_isi(spike_times, num_trials=nothing)
+    calculate_isi(spike_times, num_trials=nothing)
 Calculates the Inter-Spike Intervals. If num_trials is provided, 
 it assumes spike_times is a Vector of Vectors (one per trial).
 """
