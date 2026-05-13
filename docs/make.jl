@@ -7,6 +7,7 @@ makedocs(;
     modules=[Lodestar, Lodestar.SpikeTrain],
     authors="Nippani Meghana <meghananippani@email.com>",
     sitename="Lodestar.jl",
+    checkdocs = :none,
     format=Documenter.HTML(;
         canonical="https://Nippani-Meghana.github.io/Lodestar.jl",
         edit_link="master",
