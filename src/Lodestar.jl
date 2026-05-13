@@ -1,5 +1,8 @@
 module Lodestar
 
-# Write your package code here.
+include("SpikeTrain/isi.jl")
+using .SpikeTrain 
+
+export calculate_isi  
 
 end
